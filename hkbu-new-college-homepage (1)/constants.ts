@@ -3,6 +3,7 @@ import { NewsItem, EventItem, SocialPost } from './types';
 export const NEWS_ITEMS: NewsItem[] = [
   {
     id: 1,
+    // Asian students studying group
     image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80',
     date: 'OCT 24, 2025',
     headline: 'HKBU New College Launches AI-Driven Research Initiative',
@@ -10,20 +11,23 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80',
+    // Modern campus building/atrium
+    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80',
     date: 'OCT 22, 2025',
     headline: 'Global Exchange Partners Visit Campus for Sustainability Summit',
     link: '#'
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80',
+    // Asian female student presenting/working
+    image: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=600&q=80',
     date: 'OCT 18, 2025',
     headline: 'Student Innovation Team Wins Gold at International Tech Fair',
     link: '#'
   },
   {
     id: 4,
+    // Professor/Academic setting
     image: 'https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=600&q=80',
     date: 'OCT 15, 2025',
     headline: 'Professor Lee Awarded Prestigious Humanities Fellowship',
@@ -61,27 +65,31 @@ export const EVENT_ITEMS: EventItem[] = [
 export const SOCIAL_POSTS: SocialPost[] = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=400&q=80',
+    // Asian graduates
+    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=400&q=80',
     type: 'instagram',
     caption: 'Graduation day joy! 🎓 #HKBUNewCollege #ClassOf2025',
     likes: 1240
   },
   {
     id: 2,
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=400&q=80',
+    // Research lab / students
+    image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=400&q=80',
     type: 'linkedin',
     caption: 'Honored to present our research on urban sustainability.',
     likes: 856
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=400&q=80',
+    // Campus architecture sunset
+    image: 'https://images.unsplash.com/photo-1592280771190-3e2e4d50c24f?auto=format&fit=crop&w=400&q=80',
     type: 'instagram',
     caption: 'Campus sunset vibes 🌅',
     likes: 2100
   },
   {
     id: 4,
+    // Students working on tech
     image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=400&q=80',
     type: 'instagram',
     caption: 'Robotics club competition ready!',
@@ -89,7 +97,8 @@ export const SOCIAL_POSTS: SocialPost[] = [
   },
   {
     id: 5,
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=400&q=80',
+    // Formal event/Gala
+    image: 'https://images.unsplash.com/photo-1551818255-e6e10975bc17?auto=format&fit=crop&w=400&q=80',
     type: 'linkedin',
     caption: 'Networking with industry leaders at the annual gala.',
     likes: 760
